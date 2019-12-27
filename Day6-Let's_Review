@@ -1,0 +1,7 @@
+N = int(input())
+S = []
+for i in range(0,N):
+    S.append(input())
+for j in range(0,N):
+    x = S[j]
+    print(x[::2],x[1::2])
